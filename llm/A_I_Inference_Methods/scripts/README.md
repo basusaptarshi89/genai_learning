@@ -42,3 +42,28 @@ curl -iX POST -H "Content-Type: application/json" -d '{"prompt":"What was the ca
 ```sh
 curl -iX POST -H "Content-Type: application/json" -d '{"prompt":"What was the capital of India before 1911?", "parameters": {"max_new_tokens": 100}}' "10.0.0.123:7861/generate/stream"
 ```
+
+### Start gradio app
+
+#### Open a new session using tmux
+
+```sh
+tmux new -s gradio
+conda activate pytorch
+python gradio_app.py
+
+```
+
+#### Detach from the session terminal
+
+- Press Cntl + B to enter into tmux command mode
+- Press D to detach
+
+Command to check running sessions::
+
+```sh
+tmux ls
+```
+
+> **NOTE**\
+> Running on local URL:  http://127.0.0.1:7860
