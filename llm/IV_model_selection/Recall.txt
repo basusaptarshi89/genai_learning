@@ -1,0 +1,1290 @@
+RESULTS = "[
+    {
+        "safetyreportversion": "1",
+        "safetyreportid": "23325025",
+        "primarysourcecountry": "US",
+        "occurcountry": "US",
+        "transmissiondateformat": "102",
+        "transmissiondate": "20240110",
+        "reporttype": "1",
+        "serious": "1",
+        "seriousnessdeath": "2",
+        "seriousnesslifethreatening": "2",
+        "seriousnesshospitalization": "2",
+        "seriousnessdisabling": "2",
+        "seriousnesscongenitalanomali": "2",
+        "seriousnessother": "1",
+        "receivedateformat": "102",
+        "receivedate": "20231221",
+        "receiptdateformat": "102",
+        "receiptdate": "20231221",
+        "fulfillexpeditecriteria": "1",
+        "companynumb": "US-BRISTOL-MYERS SQUIBB COMPANY-2023-183468",
+        "primarysource": {
+            "reportercountry": "US",
+            "qualification": "5"
+        },
+        "sender": {
+            "sendertype": "2",
+            "senderorganization": "FDA-Public Use"
+        },
+        "receiver": {
+            "receivertype": "6",
+            "receiverorganization": "FDA"
+        },
+        "patient": {
+            "patientonsetage": "61",
+            "patientonsetageunit": "801",
+            "patientagegroup": "5",
+            "patientsex": "2",
+            "reaction": [
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Hepatic enzyme abnormal",
+                    "reactionoutcome": "6"
+                }
+            ],
+            "drug": [
+                {
+                    "drugcharacterization": "1",
+                    "medicinalproduct": "ZEPOSIA",
+                    "drugbatchnumb": "Unknown",
+                    "drugauthorizationnumb": "209899",
+                    "drugstructuredosagenumb": "0.92",
+                    "drugstructuredosageunit": "003",
+                    "drugseparatedosagenumb": "1",
+                    "drugintervaldosageunitnumb": "1",
+                    "drugintervaldosagedefinition": "804",
+                    "drugdosageform": "Capsule",
+                    "drugadministrationroute": "048",
+                    "drugindication": "Multiple sclerosis",
+                    "actiondrug": "1",
+                    "activesubstance": {
+                        "activesubstancename": "OZANIMOD HYDROCHLORIDE"
+                    },
+                    "openfda": {
+                        "application_number": [
+                            "NDA209899"
+                        ],
+                        "brand_name": [
+                            "ZEPOSIA 7-DAY STARTER PACK",
+                            "ZEPOSIA",
+                            "ZEPOSIA STARTER KIT"
+                        ],
+                        "generic_name": [
+                            "OZANIMOD HYDROCHLORIDE"
+                        ],
+                        "manufacturer_name": [
+                            "Celgene Corporation"
+                        ],
+                        "product_ndc": [
+                            "59572-810",
+                            "59572-820",
+                            "59572-890"
+                        ],
+                        "product_type": [
+                            "HUMAN PRESCRIPTION DRUG"
+                        ],
+                        "rxcui": [
+                            "2288406",
+                            "2288412",
+                            "2288414",
+                            "2288416",
+                            "2288418",
+                            "2288420",
+                            "2288430",
+                            "2288431",
+                            "2288432",
+                            "2288433",
+                            "2642213",
+                            "2642214"
+                        ],
+                        "spl_id": [
+                            "695f45ec-a0d4-42d7-8e43-9d54fe330792"
+                        ],
+                        "spl_set_id": [
+                            "93ce2fab-edfb-4804-8074-963071de51e4"
+                        ],
+                        "package_ndc": [
+                            "59572-820-30",
+                            "59572-820-97",
+                            "59572-810-07",
+                            "59572-810-97",
+                            "59572-890-91",
+                            "59572-890-97",
+                            "59572-890-28",
+                            "59572-890-98"
+                        ],
+                        "unii": [
+                            "3UPR33JAAM"
+                        ],
+                        "route": [
+                            "ORAL"
+                        ],
+                        "substance_name": [
+                            "OZANIMOD HYDROCHLORIDE"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "safetyreportversion": "1",
+        "safetyreportid": "23325430",
+        "primarysourcecountry": "US",
+        "occurcountry": "US",
+        "transmissiondateformat": "102",
+        "transmissiondate": "20240110",
+        "reporttype": "1",
+        "serious": "2",
+        "seriousnessdeath": "2",
+        "seriousnesslifethreatening": "2",
+        "seriousnesshospitalization": "2",
+        "seriousnessdisabling": "2",
+        "seriousnesscongenitalanomali": "2",
+        "seriousnessother": "2",
+        "receivedateformat": "102",
+        "receivedate": "20231221",
+        "receiptdateformat": "102",
+        "receiptdate": "20231221",
+        "fulfillexpeditecriteria": "2",
+        "companynumb": "US-AMGEN-USASP2023220393",
+        "duplicate": "1",
+        "reportduplicate": {
+            "duplicatesource": "AMGEN INC",
+            "duplicatenumb": "US-AMGEN INC-23-0333257-SR-01"
+        },
+        "primarysource": {
+            "reportercountry": "US",
+            "qualification": "3"
+        },
+        "sender": {
+            "sendertype": "2",
+            "senderorganization": "FDA-Public Use"
+        },
+        "receiver": {
+            "receivertype": "6",
+            "receiverorganization": "FDA"
+        },
+        "patient": {
+            "reaction": [
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Needle issue",
+                    "reactionoutcome": "6"
+                },
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Poor quality device used",
+                    "reactionoutcome": "6"
+                }
+            ],
+            "drug": [
+                {
+                    "drugcharacterization": "1",
+                    "medicinalproduct": "NEULASTA",
+                    "drugauthorizationnumb": "125031",
+                    "drugstructuredosagenumb": "6",
+                    "drugstructuredosageunit": "003",
+                    "drugdosagetext": "6 MILLIGRAM",
+                    "drugdosageform": "Solution for injection",
+                    "drugadministrationroute": "065",
+                    "drugindication": "Product used for unknown indication",
+                    "actiondrug": "6",
+                    "drugadditional": "4",
+                    "activesubstance": {
+                        "activesubstancename": "PEGFILGRASTIM"
+                    },
+                    "openfda": {
+                        "application_number": [
+                            "BLA125031"
+                        ],
+                        "brand_name": [
+                            "NEULASTA"
+                        ],
+                        "generic_name": [
+                            "PEGFILGRASTIM"
+                        ],
+                        "manufacturer_name": [
+                            "Amgen Inc"
+                        ],
+                        "product_ndc": [
+                            "55513-190",
+                            "55513-192"
+                        ],
+                        "product_type": [
+                            "HUMAN PRESCRIPTION DRUG"
+                        ],
+                        "route": [
+                            "SUBCUTANEOUS"
+                        ],
+                        "substance_name": [
+                            "PEGFILGRASTIM"
+                        ],
+                        "rxcui": [
+                            "727539",
+                            "727542",
+                            "2549331",
+                            "2549333"
+                        ],
+                        "spl_id": [
+                            "50374606-0a76-45df-8b19-8323cc511e87"
+                        ],
+                        "spl_set_id": [
+                            "fdfe5d72-6b80-435a-afa4-c5d74dd852ce"
+                        ],
+                        "package_ndc": [
+                            "55513-192-01",
+                            "55513-190-01"
+                        ],
+                        "nui": [
+                            "M0024696",
+                            "N0000009451",
+                            "N0000175666"
+                        ],
+                        "pharm_class_cs": [
+                            "Granulocyte Colony-Stimulating Factor [CS]"
+                        ],
+                        "pharm_class_pe": [
+                            "Increased Myeloid Cell Production [PE]"
+                        ],
+                        "pharm_class_epc": [
+                            "Leukocyte Growth Factor [EPC]"
+                        ],
+                        "unii": [
+                            "3A58010674"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "safetyreportversion": "1",
+        "safetyreportid": "23325698",
+        "primarysourcecountry": "FR",
+        "occurcountry": "FR",
+        "transmissiondateformat": "102",
+        "transmissiondate": "20240110",
+        "reporttype": "1",
+        "serious": "2",
+        "seriousnessdeath": "2",
+        "seriousnesslifethreatening": "2",
+        "seriousnesshospitalization": "2",
+        "seriousnessdisabling": "2",
+        "seriousnesscongenitalanomali": "2",
+        "seriousnessother": "2",
+        "receivedateformat": "102",
+        "receivedate": "20231221",
+        "receiptdateformat": "102",
+        "receiptdate": "20231221",
+        "fulfillexpeditecriteria": "5",
+        "companynumb": "FR-JNJFOC-20231226920",
+        "primarysource": {
+            "reportercountry": "FR",
+            "qualification": "2"
+        },
+        "sender": {
+            "sendertype": "2",
+            "senderorganization": "FDA-Public Use"
+        },
+        "receiver": {
+            "receivertype": "6",
+            "receiverorganization": "FDA"
+        },
+        "patient": {
+            "reaction": [
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Device issue",
+                    "reactionoutcome": "6"
+                }
+            ],
+            "drug": [
+                {
+                    "drugcharacterization": "1",
+                    "medicinalproduct": "PREZISTA",
+                    "drugauthorizationnumb": "202895",
+                    "drugdosagetext": "STRENGTH: UNKNOWN",
+                    "drugdosageform": "Oral suspension",
+                    "drugadministrationroute": "048",
+                    "drugindication": "Product used for unknown indication",
+                    "actiondrug": "5",
+                    "drugadditional": "3",
+                    "activesubstance": {
+                        "activesubstancename": "DARUNAVIR ETHANOLATE"
+                    },
+                    "openfda": {
+                        "application_number": [
+                            "NDA021976",
+                            "NDA202895"
+                        ],
+                        "brand_name": [
+                            "PREZISTA"
+                        ],
+                        "generic_name": [
+                            "DARUNAVIR"
+                        ],
+                        "manufacturer_name": [
+                            "Janssen Products LP"
+                        ],
+                        "product_ndc": [
+                            "59676-562",
+                            "59676-563",
+                            "59676-564",
+                            "59676-566",
+                            "59676-565"
+                        ],
+                        "product_type": [
+                            "HUMAN PRESCRIPTION DRUG"
+                        ],
+                        "route": [
+                            "ORAL"
+                        ],
+                        "substance_name": [
+                            "DARUNAVIR ETHANOLATE"
+                        ],
+                        "rxcui": [
+                            "670026",
+                            "794610",
+                            "831868",
+                            "831870",
+                            "850455",
+                            "850457",
+                            "1236628",
+                            "1236632",
+                            "1359269",
+                            "1359271"
+                        ],
+                        "spl_id": [
+                            "02fd607e-f780-dd47-e063-6394a90aad7d"
+                        ],
+                        "spl_set_id": [
+                            "814301f9-c990-46a5-b481-2879a521a16f"
+                        ],
+                        "package_ndc": [
+                            "59676-563-01",
+                            "59676-564-01",
+                            "59676-562-01",
+                            "59676-566-30",
+                            "59676-565-01"
+                        ],
+                        "unii": [
+                            "33O78XF0BW"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "safetyreportversion": "1",
+        "safetyreportid": "23072780",
+        "primarysourcecountry": "US",
+        "transmissiondateformat": "102",
+        "transmissiondate": "20240110",
+        "reporttype": "2",
+        "serious": "1",
+        "seriousnessdeath": "1",
+        "seriousnesslifethreatening": "2",
+        "seriousnesshospitalization": "2",
+        "seriousnessdisabling": "2",
+        "seriousnesscongenitalanomali": "2",
+        "seriousnessother": "1",
+        "receivedateformat": "102",
+        "receivedate": "20231017",
+        "receiptdateformat": "102",
+        "receiptdate": "20231017",
+        "fulfillexpeditecriteria": "1",
+        "companynumb": "2023A233878",
+        "duplicate": "1",
+        "reportduplicate": [
+            {
+                "duplicatesource": "CVS/Caremark Specialty Pharmacy",
+                "duplicatenumb": "1703"
+            },
+            {
+                "duplicatesource": "MC USA",
+                "duplicatenumb": "23US0086897"
+            }
+        ],
+        "primarysource": {
+            "reportercountry": "US",
+            "qualification": "3"
+        },
+        "sender": {
+            "sendertype": "2",
+            "senderorganization": "FDA-Public Use"
+        },
+        "receiver": {
+            "receivertype": "6",
+            "receiverorganization": "FDA"
+        },
+        "patient": {
+            "patientonsetage": "13153",
+            "patientonsetageunit": "804",
+            "patientsex": "2",
+            "reaction": [
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Death",
+                    "reactionoutcome": "5"
+                },
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Underdose",
+                    "reactionoutcome": "6"
+                }
+            ],
+            "drug": [
+                {
+                    "drugcharacterization": "1",
+                    "medicinalproduct": "LYNPARZA",
+                    "drugauthorizationnumb": "208558",
+                    "drugstructuredosagenumb": "100",
+                    "drugstructuredosageunit": "003",
+                    "drugseparatedosagenumb": "2",
+                    "drugintervaldosageunitnumb": "1",
+                    "drugintervaldosagedefinition": "804",
+                    "drugcumulativedosagenumb": "194800",
+                    "drugcumulativedosageunit": "003",
+                    "drugadministrationroute": "048",
+                    "drugindication": "Breast cancer female",
+                    "drugstartdateformat": "610",
+                    "drugstartdate": "202101",
+                    "actiondrug": "5",
+                    "drugadditional": "3",
+                    "activesubstance": {
+                        "activesubstancename": "OLAPARIB"
+                    },
+                    "openfda": {
+                        "application_number": [
+                            "NDA208558"
+                        ],
+                        "brand_name": [
+                            "LYNPARZA"
+                        ],
+                        "generic_name": [
+                            "OLAPARIB"
+                        ],
+                        "manufacturer_name": [
+                            "AstraZeneca Pharmaceuticals LP"
+                        ],
+                        "product_ndc": [
+                            "0310-0668",
+                            "0310-0679"
+                        ],
+                        "product_type": [
+                            "HUMAN PRESCRIPTION DRUG"
+                        ],
+                        "route": [
+                            "ORAL"
+                        ],
+                        "substance_name": [
+                            "OLAPARIB"
+                        ],
+                        "rxcui": [
+                            "1942482",
+                            "1942485",
+                            "1942487",
+                            "1942489"
+                        ],
+                        "spl_id": [
+                            "5d1fb11d-00fa-48eb-b915-acf9ae26de79"
+                        ],
+                        "spl_set_id": [
+                            "741ff3e3-dc1a-45a6-84e5-2481b27131aa"
+                        ],
+                        "package_ndc": [
+                            "0310-0668-60",
+                            "0310-0668-12",
+                            "0310-0668-95",
+                            "0310-0679-60",
+                            "0310-0679-12",
+                            "0310-0679-95"
+                        ],
+                        "nui": [
+                            "N0000191623",
+                            "N0000191622"
+                        ],
+                        "pharm_class_epc": [
+                            "Poly(ADP-Ribose) Polymerase Inhibitor [EPC]"
+                        ],
+                        "pharm_class_moa": [
+                            "Poly(ADP-Ribose) Polymerase Inhibitors [MoA]"
+                        ],
+                        "unii": [
+                            "WOH1JD9AR8"
+                        ]
+                    }
+                }
+            ],
+            "summary": {
+                "narrativeincludeclinical": "CASE EVENT DATE: 20230907"
+            }
+        }
+    },
+    {
+        "safetyreportversion": "1",
+        "safetyreportid": "23073657",
+        "primarysourcecountry": "GB",
+        "transmissiondateformat": "102",
+        "transmissiondate": "20240109",
+        "reporttype": "1",
+        "serious": "1",
+        "seriousnessdeath": "2",
+        "seriousnesslifethreatening": "2",
+        "seriousnesshospitalization": "2",
+        "seriousnessdisabling": "2",
+        "seriousnesscongenitalanomali": "2",
+        "seriousnessother": "1",
+        "receivedateformat": "102",
+        "receivedate": "20231017",
+        "receiptdateformat": "102",
+        "receiptdate": "20231017",
+        "fulfillexpeditecriteria": "1",
+        "companynumb": "GB-MHRA-MED-202310031127293410-ZVSCG",
+        "duplicate": "1",
+        "reportduplicate": [
+            {
+                "duplicatesource": "ELECTRONICYCPROD",
+                "duplicatenumb": "GB-MHRA-MED-202310031127293410-ZVSCG"
+            },
+            {
+                "duplicatesource": "MHRAUK",
+                "duplicatenumb": "GB-MHRA-ADR 28226207"
+            }
+        ],
+        "primarysource": {
+            "reportercountry": "GB",
+            "qualification": "5"
+        },
+        "sender": {
+            "sendertype": "2",
+            "senderorganization": "FDA-Public Use"
+        },
+        "receiver": {
+            "receivertype": "6",
+            "receiverorganization": "FDA"
+        },
+        "patient": {
+            "patientonsetage": "67",
+            "patientonsetageunit": "801",
+            "patientagegroup": "6",
+            "patientweight": "85",
+            "patientsex": "2",
+            "reaction": [
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Malaise",
+                    "reactionoutcome": "3"
+                },
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Medication error",
+                    "reactionoutcome": "6"
+                }
+            ],
+            "drug": [
+                {
+                    "drugcharacterization": "1",
+                    "medicinalproduct": "ATORVASTATIN",
+                    "drugbatchnumb": "ASKU",
+                    "drugauthorizationnumb": "205945",
+                    "drugstructuredosagenumb": "50",
+                    "drugstructuredosageunit": "003",
+                    "drugseparatedosagenumb": "1",
+                    "drugintervaldosageunitnumb": "1",
+                    "drugintervaldosagedefinition": "804",
+                    "drugdosagetext": "50 MG ONCE A DAY; ;",
+                    "drugdosageform": "Tablet",
+                    "drugindication": "Product used for unknown indication",
+                    "drugstartdateformat": "102",
+                    "drugstartdate": "20230926",
+                    "actiondrug": "5",
+                    "drugrecurreadministration": "3",
+                    "drugadditional": "3",
+                    "activesubstance": {
+                        "activesubstancename": "ATORVASTATIN"
+                    }
+                },
+                {
+                    "drugcharacterization": "2",
+                    "medicinalproduct": "COCODAMOL",
+                    "drugbatchnumb": "ASKU",
+                    "drugindication": "Arthritis",
+                    "drugstartdateformat": "102",
+                    "drugstartdate": "20230505",
+                    "activesubstance": {
+                        "activesubstancename": "ACETAMINOPHEN\\CODEINE PHOSPHATE"
+                    }
+                }
+            ],
+            "summary": {
+                "narrativeincludeclinical": "CASE EVENT DATE: 20231003"
+            }
+        }
+    },
+    {
+        "safetyreportversion": "1",
+        "safetyreportid": "23074724",
+        "primarysourcecountry": "US",
+        "occurcountry": "US",
+        "transmissiondateformat": "102",
+        "transmissiondate": "20240110",
+        "reporttype": "2",
+        "serious": "1",
+        "seriousnessdeath": "2",
+        "seriousnesslifethreatening": "2",
+        "seriousnesshospitalization": "2",
+        "seriousnessdisabling": "2",
+        "seriousnesscongenitalanomali": "2",
+        "seriousnessother": "1",
+        "receivedateformat": "102",
+        "receivedate": "20231017",
+        "receiptdateformat": "102",
+        "receiptdate": "20231017",
+        "fulfillexpeditecriteria": "1",
+        "companynumb": "US-ABBVIE-5453123",
+        "primarysource": {
+            "reportercountry": "US",
+            "qualification": "5"
+        },
+        "sender": {
+            "sendertype": "2",
+            "senderorganization": "FDA-Public Use"
+        },
+        "receiver": {
+            "receivertype": "6",
+            "receiverorganization": "FDA"
+        },
+        "patient": {
+            "patientonsetage": "49",
+            "patientonsetageunit": "801",
+            "patientsex": "2",
+            "reaction": [
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Surgery",
+                    "reactionoutcome": "6"
+                },
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Heart rate increased",
+                    "reactionoutcome": "1"
+                },
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Nausea",
+                    "reactionoutcome": "1"
+                },
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Palpitations",
+                    "reactionoutcome": "1"
+                },
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Muscle spasms",
+                    "reactionoutcome": "1"
+                },
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Drug ineffective",
+                    "reactionoutcome": "1"
+                }
+            ],
+            "drug": [
+                {
+                    "drugcharacterization": "1",
+                    "medicinalproduct": "RINVOQ",
+                    "drugbatchnumb": "Not Available",
+                    "drugauthorizationnumb": "211675",
+                    "drugstructuredosagenumb": "30",
+                    "drugstructuredosageunit": "003",
+                    "drugseparatedosagenumb": "1",
+                    "drugintervaldosageunitnumb": "1",
+                    "drugintervaldosagedefinition": "804",
+                    "drugdosagetext": "FOR APPROXIMATELY THREE WEEKS",
+                    "drugadministrationroute": "048",
+                    "drugindication": "Dermatitis atopic",
+                    "drugstartdateformat": "610",
+                    "drugstartdate": "202210",
+                    "drugenddateformat": "610",
+                    "drugenddate": "202210",
+                    "actiondrug": "1",
+                    "drugadditional": "1",
+                    "activesubstance": {
+                        "activesubstancename": "UPADACITINIB"
+                    },
+                    "openfda": {
+                        "application_number": [
+                            "NDA211675"
+                        ],
+                        "brand_name": [
+                            "RINVOQ"
+                        ],
+                        "generic_name": [
+                            "UPADACITINIB"
+                        ],
+                        "manufacturer_name": [
+                            "AbbVie Inc."
+                        ],
+                        "product_ndc": [
+                            "0074-1043",
+                            "0074-2306",
+                            "0074-2310"
+                        ],
+                        "product_type": [
+                            "HUMAN PRESCRIPTION DRUG"
+                        ],
+                        "route": [
+                            "ORAL"
+                        ],
+                        "substance_name": [
+                            "UPADACITINIB"
+                        ],
+                        "rxcui": [
+                            "2196894",
+                            "2196900",
+                            "2590051",
+                            "2590054",
+                            "2596957",
+                            "2596960"
+                        ],
+                        "spl_id": [
+                            "b3ed4d84-05b2-41f8-9664-2e2fff13effc"
+                        ],
+                        "spl_set_id": [
+                            "2966aec7-2ef0-923c-d8ff-fe1a957bf095"
+                        ],
+                        "package_ndc": [
+                            "0074-2306-30",
+                            "0074-2306-70",
+                            "0074-2310-30",
+                            "0074-2310-20",
+                            "0074-1043-28",
+                            "0074-1043-14"
+                        ],
+                        "nui": [
+                            "N0000190858",
+                            "N0000190857"
+                        ],
+                        "pharm_class_epc": [
+                            "Janus Kinase Inhibitor [EPC]"
+                        ],
+                        "pharm_class_moa": [
+                            "Janus Kinase Inhibitors [MoA]"
+                        ],
+                        "unii": [
+                            "4RA0KN46E0"
+                        ]
+                    }
+                },
+                {
+                    "drugcharacterization": "1",
+                    "medicinalproduct": "AMIODARONE",
+                    "drugseparatedosagenumb": "1",
+                    "drugdosagetext": "STARTED APPROXIMATELY ONE WEEK AFTER STARTING RINVOQ IN OCT 2022 AND STOPPED APPROXIMATELY 1-2 WE...",
+                    "drugadministrationroute": "048",
+                    "drugindication": "Atrial fibrillation",
+                    "drugstartdateformat": "602",
+                    "drugstartdate": "2022",
+                    "drugenddateformat": "602",
+                    "drugenddate": "2022",
+                    "actiondrug": "1",
+                    "drugadditional": "1",
+                    "activesubstance": {
+                        "activesubstancename": "AMIODARONE"
+                    }
+                }
+            ],
+            "summary": {
+                "narrativeincludeclinical": "CASE EVENT DATE: 20221001"
+            }
+        }
+    },
+    {
+        "safetyreportversion": "1",
+        "safetyreportid": "23328103",
+        "primarysourcecountry": "US",
+        "occurcountry": "US",
+        "transmissiondateformat": "102",
+        "transmissiondate": "20240109",
+        "reporttype": "1",
+        "serious": "2",
+        "seriousnessdeath": "2",
+        "seriousnesslifethreatening": "2",
+        "seriousnesshospitalization": "2",
+        "seriousnessdisabling": "2",
+        "seriousnesscongenitalanomali": "2",
+        "seriousnessother": "2",
+        "receivedateformat": "102",
+        "receivedate": "20231221",
+        "receiptdateformat": "102",
+        "receiptdate": "20231221",
+        "fulfillexpeditecriteria": "2",
+        "companynumb": "US-BIOMARINAP-US-2023-154552",
+        "primarysource": {
+            "reportercountry": "US",
+            "qualification": "5"
+        },
+        "sender": {
+            "sendertype": "2",
+            "senderorganization": "FDA-Public Use"
+        },
+        "receiver": {
+            "receivertype": "6",
+            "receiverorganization": "FDA"
+        },
+        "patient": {
+            "reaction": [
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Nausea",
+                    "reactionoutcome": "1"
+                }
+            ],
+            "drug": [
+                {
+                    "drugcharacterization": "1",
+                    "medicinalproduct": "PALYNZIQ",
+                    "drugbatchnumb": "not reported",
+                    "drugauthorizationnumb": "761079",
+                    "drugstructuredosagenumb": "10",
+                    "drugstructuredosageunit": "003",
+                    "drugdosagetext": "10 MILLIGRAM",
+                    "drugdosageform": "Solution for injection",
+                    "drugadministrationroute": "058",
+                    "drugindication": "Product used for unknown indication",
+                    "actiondrug": "4",
+                    "activesubstance": {
+                        "activesubstancename": "PEGVALIASE-PQPZ"
+                    },
+                    "openfda": {
+                        "application_number": [
+                            "BLA761079"
+                        ],
+                        "brand_name": [
+                            "PALYNZIQ"
+                        ],
+                        "generic_name": [
+                            "PEGVALIASE-PQPZ"
+                        ],
+                        "manufacturer_name": [
+                            "BioMarin Pharmaceutical Inc."
+                        ],
+                        "product_ndc": [
+                            "68135-058",
+                            "68135-756",
+                            "68135-673"
+                        ],
+                        "product_type": [
+                            "HUMAN PRESCRIPTION DRUG"
+                        ],
+                        "route": [
+                            "SUBCUTANEOUS"
+                        ],
+                        "substance_name": [
+                            "PEGVALIASE"
+                        ],
+                        "rxcui": [
+                            "2046365",
+                            "2046370",
+                            "2046374",
+                            "2046376",
+                            "2046379",
+                            "2046380"
+                        ],
+                        "spl_id": [
+                            "24831ce1-fc13-4fd1-9659-d95257ba807b"
+                        ],
+                        "spl_set_id": [
+                            "6dba844a-db02-44f8-8593-ce497ed9406c"
+                        ],
+                        "package_ndc": [
+                            "68135-058-89",
+                            "68135-058-90",
+                            "68135-756-19",
+                            "68135-756-20",
+                            "68135-673-39",
+                            "68135-673-40",
+                            "68135-673-45"
+                        ],
+                        "nui": [
+                            "N0000193858",
+                            "M0016545"
+                        ],
+                        "pharm_class_epc": [
+                            "Phenylalanine Metabolizing Enzyme [EPC]"
+                        ],
+                        "pharm_class_cs": [
+                            "Phenylalanine Ammonia-Lyase [CS]"
+                        ],
+                        "unii": [
+                            "N6UAH27EUV"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "safetyreportversion": "1",
+        "safetyreportid": "23328790",
+        "primarysourcecountry": "IT",
+        "occurcountry": "IT",
+        "transmissiondateformat": "102",
+        "transmissiondate": "20240110",
+        "reporttype": "2",
+        "serious": "1",
+        "seriousnessdeath": "2",
+        "seriousnesslifethreatening": "2",
+        "seriousnesshospitalization": "1",
+        "seriousnessdisabling": "2",
+        "seriousnesscongenitalanomali": "2",
+        "seriousnessother": "2",
+        "receivedateformat": "102",
+        "receivedate": "20231221",
+        "receiptdateformat": "102",
+        "receiptdate": "20231221",
+        "fulfillexpeditecriteria": "1",
+        "companynumb": "IT-ABBVIE-5551820",
+        "primarysource": {
+            "reportercountry": "IT",
+            "qualification": "5"
+        },
+        "sender": {
+            "sendertype": "2",
+            "senderorganization": "FDA-Public Use"
+        },
+        "receiver": {
+            "receivertype": "6",
+            "receiverorganization": "FDA"
+        },
+        "patient": {
+            "patientonsetage": "76",
+            "patientonsetageunit": "801",
+            "patientsex": "2",
+            "reaction": [
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Femoral neck fracture",
+                    "reactionoutcome": "2"
+                },
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Fall",
+                    "reactionoutcome": "6"
+                }
+            ],
+            "drug": [
+                {
+                    "drugcharacterization": "1",
+                    "medicinalproduct": "CARBIDOPA\\LEVODOPA",
+                    "drugbatchnumb": "Not Available",
+                    "drugauthorizationnumb": "203952",
+                    "drugseparatedosagenumb": "1",
+                    "drugdosagetext": "DAILY DOSE (MG): 700; PUMP SETTING: MD: 4+3; CR: 2 (15H); ED: 0,5",
+                    "drugdosageform": "Intestinal gel",
+                    "drugadministrationroute": "050",
+                    "drugindication": "Parkinson^s disease",
+                    "actiondrug": "4",
+                    "activesubstance": {
+                        "activesubstancename": "CARBIDOPA\\LEVODOPA"
+                    }
+                },
+                {
+                    "drugcharacterization": "1",
+                    "medicinalproduct": "CARBIDOPA\\LEVODOPA",
+                    "drugauthorizationnumb": "203952",
+                    "actiondrug": "4",
+                    "activesubstance": {
+                        "activesubstancename": "CARBIDOPA\\LEVODOPA"
+                    }
+                }
+            ],
+            "summary": {
+                "narrativeincludeclinical": "CASE EVENT DATE: 20231205"
+            }
+        }
+    },
+    {
+        "safetyreportversion": "1",
+        "safetyreportid": "23329586",
+        "primarysourcecountry": "KR",
+        "occurcountry": "KR",
+        "transmissiondateformat": "102",
+        "transmissiondate": "20240109",
+        "reporttype": "2",
+        "serious": "1",
+        "seriousnessdeath": "2",
+        "seriousnesslifethreatening": "2",
+        "seriousnesshospitalization": "2",
+        "seriousnessdisabling": "2",
+        "seriousnesscongenitalanomali": "2",
+        "seriousnessother": "1",
+        "receivedateformat": "102",
+        "receivedate": "20231222",
+        "receiptdateformat": "102",
+        "receiptdate": "20231222",
+        "fulfillexpeditecriteria": "1",
+        "companynumb": "KR-KYOWAKIRIN-2023KK019743",
+        "duplicate": "1",
+        "reportduplicate": {
+            "duplicatesource": "KYOWAKIRIN",
+            "duplicatenumb": "KR-KYOWAKIRIN-2023KK019743"
+        },
+        "primarysource": {
+            "reportercountry": "KR",
+            "qualification": "1"
+        },
+        "sender": {
+            "sendertype": "2",
+            "senderorganization": "FDA-Public Use"
+        },
+        "receiver": {
+            "receivertype": "6",
+            "receiverorganization": "FDA"
+        },
+        "patient": {
+            "patientagegroup": "5",
+            "reaction": [
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Febrile neutropenia",
+                    "reactionoutcome": "1"
+                },
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Febrile neutropenia",
+                    "reactionoutcome": "6"
+                },
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Neutropenia",
+                    "reactionoutcome": "6"
+                },
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Neutropenia",
+                    "reactionoutcome": "6"
+                }
+            ],
+            "drug": [
+                {
+                    "drugcharacterization": "1",
+                    "medicinalproduct": "PEGFILGRASTIM",
+                    "drugauthorizationnumb": "125031",
+                    "drugdosagetext": "UNK",
+                    "drugdosageform": "Solution for injection",
+                    "drugadministrationroute": "065",
+                    "drugindication": "Prophylaxis",
+                    "actiondrug": "5",
+                    "drugadditional": "3",
+                    "activesubstance": {
+                        "activesubstancename": "PEGFILGRASTIM"
+                    },
+                    "openfda": {
+                        "application_number": [
+                            "BLA125031",
+                            "BLA761084"
+                        ],
+                        "brand_name": [
+                            "NEULASTA",
+                            "FYLNETRA"
+                        ],
+                        "generic_name": [
+                            "PEGFILGRASTIM"
+                        ],
+                        "manufacturer_name": [
+                            "Amgen Inc",
+                            "Amneal Pharmaceuticals LLC"
+                        ],
+                        "product_ndc": [
+                            "55513-190",
+                            "55513-192",
+                            "70121-1627"
+                        ],
+                        "product_type": [
+                            "HUMAN PRESCRIPTION DRUG"
+                        ],
+                        "route": [
+                            "SUBCUTANEOUS"
+                        ],
+                        "substance_name": [
+                            "PEGFILGRASTIM"
+                        ],
+                        "rxcui": [
+                            "727539",
+                            "727542",
+                            "2549331",
+                            "2549333",
+                            "2602781",
+                            "2602787"
+                        ],
+                        "spl_id": [
+                            "50374606-0a76-45df-8b19-8323cc511e87",
+                            "b512ecac-1a1c-41ad-bbeb-f46cc90c1333"
+                        ],
+                        "spl_set_id": [
+                            "fdfe5d72-6b80-435a-afa4-c5d74dd852ce",
+                            "eeadd641-573d-47fe-897a-61006e5f9e03"
+                        ],
+                        "package_ndc": [
+                            "55513-192-01",
+                            "55513-190-01",
+                            "70121-1627-1"
+                        ],
+                        "nui": [
+                            "M0024696",
+                            "N0000009451",
+                            "N0000175666"
+                        ],
+                        "pharm_class_cs": [
+                            "Granulocyte Colony-Stimulating Factor [CS]"
+                        ],
+                        "pharm_class_pe": [
+                            "Increased Myeloid Cell Production [PE]"
+                        ],
+                        "pharm_class_epc": [
+                            "Leukocyte Growth Factor [EPC]"
+                        ],
+                        "unii": [
+                            "3A58010674"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "safetyreportversion": "1",
+        "safetyreportid": "23330142",
+        "primarysourcecountry": "DE",
+        "occurcountry": "DE",
+        "transmissiondateformat": "102",
+        "transmissiondate": "20240109",
+        "reporttype": "1",
+        "serious": "1",
+        "seriousnessdeath": "2",
+        "seriousnesslifethreatening": "2",
+        "seriousnesshospitalization": "2",
+        "seriousnessdisabling": "2",
+        "seriousnesscongenitalanomali": "2",
+        "seriousnessother": "1",
+        "receivedateformat": "102",
+        "receivedate": "20231222",
+        "receiptdateformat": "102",
+        "receiptdate": "20231222",
+        "fulfillexpeditecriteria": "1",
+        "companynumb": "DE-SANOFI-01877586",
+        "duplicate": "1",
+        "reportduplicate": {
+            "duplicatesource": "SANOFI",
+            "duplicatenumb": "DE-SANOFI-01877586"
+        },
+        "primarysource": {
+            "reportercountry": "DE",
+            "qualification": "1"
+        },
+        "sender": {
+            "sendertype": "2",
+            "senderorganization": "FDA-Public Use"
+        },
+        "receiver": {
+            "receivertype": "6",
+            "receiverorganization": "FDA"
+        },
+        "patient": {
+            "patientonsetage": "44",
+            "patientonsetageunit": "801",
+            "patientagegroup": "5",
+            "patientsex": "2",
+            "reaction": [
+                {
+                    "reactionmeddraversionpt": "26.1",
+                    "reactionmeddrapt": "Erysipelas",
+                    "reactionoutcome": "6"
+                }
+            ],
+            "drug": [
+                {
+                    "drugcharacterization": "1",
+                    "medicinalproduct": "AUBAGIO",
+                    "drugauthorizationnumb": "202992",
+                    "drugdosagetext": "UNK",
+                    "drugdosageform": "Film-coated tablet",
+                    "actiondrug": "5",
+                    "drugadditional": "3",
+                    "activesubstance": {
+                        "activesubstancename": "TERIFLUNOMIDE"
+                    },
+                    "openfda": {
+                        "application_number": [
+                            "NDA202992"
+                        ],
+                        "brand_name": [
+                            "AUBAGIO"
+                        ],
+                        "generic_name": [
+                            "TERIFLUNOMIDE"
+                        ],
+                        "manufacturer_name": [
+                            "Genzyme Corporation"
+                        ],
+                        "product_ndc": [
+                            "58468-0210",
+                            "58468-0211"
+                        ],
+                        "product_type": [
+                            "HUMAN PRESCRIPTION DRUG"
+                        ],
+                        "route": [
+                            "ORAL"
+                        ],
+                        "substance_name": [
+                            "TERIFLUNOMIDE"
+                        ],
+                        "rxcui": [
+                            "1310525",
+                            "1310531",
+                            "1310533",
+                            "1310535"
+                        ],
+                        "spl_id": [
+                            "6376f9aa-fb14-4e8d-988a-a9d0bf1a530c"
+                        ],
+                        "spl_set_id": [
+                            "4650d12c-b9c8-4525-b07f-a2d773eca155"
+                        ],
+                        "package_ndc": [
+                            "58468-0211-1",
+                            "58468-0211-2",
+                            "58468-0211-4",
+                            "58468-0211-3",
+                            "58468-0210-2",
+                            "58468-0210-1",
+                            "58468-0210-4",
+                            "58468-0210-3"
+                        ],
+                        "nui": [
+                            "N0000185502",
+                            "N0000185501"
+                        ],
+                        "pharm_class_epc": [
+                            "Pyrimidine Synthesis Inhibitor [EPC]"
+                        ],
+                        "pharm_class_moa": [
+                            "Dihydroorotate Dehydrogenase Inhibitors [MoA]"
+                        ],
+                        "unii": [
+                            "1C058IKG3B"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+]" Given the [RESULTS] above highlights which ones could be adverse drug events
