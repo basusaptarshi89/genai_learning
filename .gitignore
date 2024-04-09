@@ -163,3 +163,6 @@ cython_debug/
 # data
 #llm/data/*.pdf
 
+# model
+llm/III_Finetuning_For_RAG/mistral-7b-int4-dolly/
+llm/III_Finetuning_For_RAG/mistral-7b-int4-dolly/*
