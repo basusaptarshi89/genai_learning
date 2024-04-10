@@ -8,6 +8,7 @@ from threading import Thread
 
 from langchain.vectorstores.pgvector import PGVector
 from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
+import time
 
 
 parser = argparse.ArgumentParser()
@@ -108,6 +109,10 @@ with gr.Blocks() as demo:
         # {instruction}
 
         docs_with_scores = db.similarity_search_with_score(chat_history[-1][0], k = 1)
+        print("#" * 100)
+        print("DEBUG::\n", chat_history[-1][0])
+        print("DEBUG::\n", docs_with_scores)
+        print("#" * 100)
         formatted_inst = prompt_format.format(
             context = docs_with_scores[0][0].page_content,
             question = chat_history[-1][0]
@@ -135,6 +140,7 @@ with gr.Blocks() as demo:
         thread.start()
         chat_history[-1][1] = ""
         for new_text in streamer:
+            time.sleep(0.1)
             chat_history[-1][1] += new_text
             yield chat_history
 
